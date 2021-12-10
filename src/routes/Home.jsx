@@ -1,7 +1,7 @@
 export default function Home() {
     return (
       <main>
-        <h2>Anthony Catullo Portfolio</h2>
+        <h1>Anthony Catullo Portfolio</h1>
       </main>
     );
   }
