@@ -11,12 +11,15 @@ import About from "./routes/About";
 import Contact from "./routes/Contact";
 import Blog from "./routes/Blog";
 import Projects from "./routes/Projects";
+import Home from "./routes/Home";
+
 
 const rootElement = document.getElementById("root");
 render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} >
+        <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
         <Route path="blog" element={<Blog />} />
