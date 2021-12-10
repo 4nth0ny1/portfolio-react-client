@@ -12,7 +12,6 @@ import Contact from "./routes/Contact";
 import Blog from "./routes/Blog";
 import Projects from "./routes/Projects";
 
-
 const rootElement = document.getElementById("root");
 render(
   <BrowserRouter>
