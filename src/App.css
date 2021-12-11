@@ -5,6 +5,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+  background: #f8f8f8;
+}
+
 .App {
   text-align: center;
 }
@@ -31,6 +35,11 @@ nav {
   color: black;
 }
 
+.project-header {
+  text-align: center;
+  margin: 25px;
+}
+
 .project-card-container {
   width: 1000px;
   margin: 0 auto;
@@ -40,4 +49,28 @@ nav {
 
 .p-card {
   margin: 10px;
+}
+
+.contact-page {
+  width: 700px;
+  margin: 20px auto;
+}
+
+.contact-form {
+  padding: 25px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+.message-field {
+  width: 100%;
+}
+
+.name-email {
+  width: 50%;
+  margin-bottom: 10px !important;
 }
