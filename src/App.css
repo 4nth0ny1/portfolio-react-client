@@ -14,6 +14,10 @@ h1 {
   font-size: 4rem;
 }
 
+h2 {
+  font-weight: 500;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -25,4 +29,15 @@ nav {
   margin: 15px;
   text-decoration: none;
   color: black;
+}
+
+.project-card-container {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.p-card {
+  margin: 10px;
 }
