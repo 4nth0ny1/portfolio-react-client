@@ -1,6 +1,8 @@
 import AccessibilityNewIcon from '@mui/icons-material/AccessibilityNew';
 import WebIcon from '@mui/icons-material/Web';
 import RssFeedIcon from '@mui/icons-material/RssFeed';
+import { Link } from "react-router-dom";
+
 
 export default function Home() {
     return (
@@ -52,18 +54,24 @@ export default function Home() {
         <div className="about-projects-blog-container">
           <h2 className="about-projects-blog-header">Ready to find out more about me?</h2>
           <div className="home-card-container">
-            <div className="home-card">
-              <AccessibilityNewIcon className="icon"/>
-              <p>about</p>
-            </div>
+            <Link className="link" to="/about">
+              <div className="home-card">
+                <AccessibilityNewIcon className="icon"/>
+                <p>about</p>
+              </div>
+            </Link>
+            <Link className="link" to="/projects">
             <div className="home-card">
               <WebIcon className="icon" />
               <p>projects</p>
             </div>
+            </Link>
+            <Link className="link" to="/blog">
             <div className="home-card">
               <RssFeedIcon className="icon" />
               <p>blog</p>
             </div>
+            </Link>
           </div>
         </div>
       </main>
