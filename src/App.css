@@ -91,16 +91,46 @@ nav {
   margin: auto auto;
 }
 
-.teamwork-container {
+.about-projects-blog-header {
   text-align: center;
-  color: white;
+  margin: 100px 0 75px 0;
+  font-size: 48px;
+}
+
+.home-card-container {
+  width: 1000px;
+  text-align: center;
+  margin: 75px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.teamwork-container {
   background: black;
-  border: 1px solid black;
-  padding: 25px;
+  color: white;
+  height: 1000px;
+  width: 100%;
+  text-align: center;
 }
 
 .teamwork-container img {
   width: 500px;
   height: 500px;
-  
+  margin: 100px;
 }
+
+.home-card {
+  background: #6C63FF;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+.icon {
+  padding: 20px;
+  font-size: 125px !important;
+}
+

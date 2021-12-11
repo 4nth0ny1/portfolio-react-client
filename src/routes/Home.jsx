@@ -1,3 +1,7 @@
+import AccessibilityNewIcon from '@mui/icons-material/AccessibilityNew';
+import WebIcon from '@mui/icons-material/Web';
+import RssFeedIcon from '@mui/icons-material/RssFeed';
+
 export default function Home() {
     return (
       <main>
@@ -31,6 +35,7 @@ export default function Home() {
           <p>Heroku</p>
           <p>Netlify</p>
         </div>
+
         <div className="teamwork-container">
           <img className="teamwork-image" src="teamwork.svg" alt="teamwork.svg" />
           <h2>What are the most important parts of developing truly great software and websites?</h2>
@@ -39,8 +44,23 @@ export default function Home() {
           <p>Loving What You Do</p>
           <p>Teamwork</p>
         </div>
+
         <div className="about-projects-blog-container">
-        
+          <h2 className="about-projects-blog-header">Ready to find out more about me?</h2>
+          <div className="home-card-container">
+            <div className="home-card">
+              <AccessibilityNewIcon className="icon"/>
+              <p>about</p>
+            </div>
+            <div className="home-card">
+              <WebIcon className="icon" />
+              <p>projects</p>
+            </div>
+            <div className="home-card">
+              <RssFeedIcon className="icon" />
+              <p>blog</p>
+            </div>
+          </div>
         </div>
       </main>
     );
