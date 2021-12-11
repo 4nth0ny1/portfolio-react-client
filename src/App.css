@@ -90,3 +90,17 @@ nav {
 .hero-image {
   margin: auto auto;
 }
+
+.teamwork-container {
+  text-align: center;
+  color: white;
+  background: black;
+  border: 1px solid black;
+  padding: 25px;
+}
+
+.teamwork-container img {
+  width: 500px;
+  height: 500px;
+  
+}
