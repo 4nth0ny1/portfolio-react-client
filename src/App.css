@@ -27,6 +27,7 @@ nav {
   flex-direction: row;
   justify-content: end;
   border-bottom: 1px solid black;
+  background: #6C63FF;
 }
 
 .link {

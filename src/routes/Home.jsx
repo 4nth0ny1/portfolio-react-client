@@ -20,7 +20,7 @@ export default function Home() {
         </div>
 
         <div className="language-container">
-          <h2 className="lang-header">Languages, Libraries, and Frameworks I love...</h2>
+          <h2 className="lang-header">Frameworks, Languages, and Libraries I love to use...</h2>
           {/* <p>Ruby</p>
           <p>Ruby on Rails</p>
           <p>Sinatra</p>
