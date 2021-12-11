@@ -25,7 +25,7 @@ h2 {
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: end;
   border-bottom: 1px solid black;
 }
 
@@ -79,16 +79,31 @@ nav {
   display: flex;
   flex-direction: row;
   width: 1500px;
+  height: 850px;
   margin: 25px auto;
 }
 
 .hero-message {
   margin: auto auto;
-  border: 1px solid black;
+  padding: 25px;
 }
 
 .hero-image {
   margin: auto auto;
+}
+
+.language-container {
+  height: 600px; 
+  border-top: 1px solid black;
+  display: flex; 
+  justify-content: center;
+
+}
+
+.lang-header {
+  font-size: 36px;
+  text-align: center;
+  margin: auto;
 }
 
 .about-projects-blog-header {
@@ -119,6 +134,11 @@ nav {
   width: 500px;
   height: 500px;
   margin: 100px;
+}
+
+.about-projects-blog-container {
+  height: 500px;
+  border-bottom: 1px solid black;
 }
 
 .home-card {

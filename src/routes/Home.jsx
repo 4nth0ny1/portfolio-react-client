@@ -9,14 +9,17 @@ export default function Home() {
           <div className="hero-message">
             <h1>Anthony Catullo</h1>
             <h1>Portfolio</h1>
-            <h2>You have projects. I can code it.</h2>
-            <p>I'm a full stack developer in many languages and would love to code your next project.</p>
+            <h2>You have projects. I can code them.</h2>
+            <br></br>
+            <p>I'm a full stack developer with many languages in my belt and </p>
+            <p>would love to code your next project.</p>
           </div>
           <img className="hero-image" src='programming.svg' alt="programming.svg" />
         </div>
+
         <div className="language-container">
-          <h2>Languages, Libraries, and Frameworks I love...</h2>
-          <p>Ruby</p>
+          <h2 className="lang-header">Languages, Libraries, and Frameworks I love...</h2>
+          {/* <p>Ruby</p>
           <p>Ruby on Rails</p>
           <p>Sinatra</p>
           <p>ReactJS</p>
@@ -33,7 +36,8 @@ export default function Home() {
           <p>PostgresQL</p>
           <p>SQLite3</p>
           <p>Heroku</p>
-          <p>Netlify</p>
+          <p>Github</p>
+          <p>Netlify</p> */}
         </div>
 
         <div className="teamwork-container">
