@@ -106,7 +106,6 @@ nav {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-
 }
 
 .lang-header {
@@ -178,3 +177,63 @@ nav {
   background: #6C63FF;
 }
 
+.about-subheader, .about-header {
+  margin-bottom: 10px;
+}
+
+.closing-line {
+  font-style: italic;
+  margin: 25px auto;
+  text-align: center;
+  width: 600px;
+  padding: 50px;
+}
+
+.ideal-position {
+  font-style: italic;
+  text-align: center;
+}
+
+.about-final-section {
+  display: flex;
+  flex-direction: row;
+  background: #6C63FF;
+  border-radius: 25px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.computers {
+  border-radius: 50%;
+}
+
+.five-year-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+
+.about-first-section {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 75px;
+}
+
+.about-top-text {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.future-about {
+  width: 50%;
+  padding: 25px;
+}
+
+.future-about hr {
+  height: 2px;
+  background-color: black;
+  border: none;
+}
