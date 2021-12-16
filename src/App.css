@@ -30,6 +30,7 @@ nav {
   justify-content: end;
   border-bottom: 1px solid black;
   background: #6C63FF;
+  box-shadow: 1px 1px 5px 1px grey;
 }
 
 .link {
@@ -54,19 +55,17 @@ nav {
   margin: 10px;
 }
 
-.contact-page {
+.link-page {
   width: 700px;
-  margin: 20px auto;
-}
-
-.contact-form {
-  padding: 25px;
+  margin: 75px auto;
+  text-align: center;
   border: 1px solid black;
-  border-radius: 10px;
-  margin: 10px;
+  height: 300px;
   display: flex;
   flex-direction: column;
-  background: white;
+  justify-content: center;
+  border-radius: 25px;
+  box-shadow: 1px 1px 17px 0px #6C63FF;
 }
 
 .message-field {
@@ -150,6 +149,8 @@ nav {
   height: 200px;
   border-radius: 10px;
   font-size: 25px;
+  box-shadow: 1px 1px 5px 1px grey;
+  border: 1px solid black;
 }
 
 .icon {
@@ -169,3 +170,4 @@ nav {
   height: 250px;
   background: #6C63FF;
 }
+

@@ -44,7 +44,7 @@ export default function Home() {
 
         <div className="teamwork-container">
           <img className="teamwork-image" src="teamwork.svg" alt="teamwork.svg" />
-          <h2>What are the most important parts of developing truly great software and websites?</h2>
+          <h2>What do I think are the most important parts of developing truly great software and websites?</h2>
           <p>Teamwork</p>
           <p>Keeping and Open Mind</p>
           <p>Loving What You Do</p>

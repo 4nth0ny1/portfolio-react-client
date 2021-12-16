@@ -8,7 +8,7 @@ import {
   Route
 } from "react-router-dom";
 import About from "./routes/About";
-import Contact from "./routes/Contact";
+import LinkPage from "./routes/LinkPage";
 import Blog from "./routes/Blog";
 import Projects from "./routes/Projects";
 import Home from "./routes/Home";
@@ -21,7 +21,7 @@ render(
       <Route path="/" element={<App />} >
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="LinkPage" element={<LinkPage />} />
         <Route path="blog" element={<Blog />} />
         <Route path="projects" element={<Projects />} />
       </Route>

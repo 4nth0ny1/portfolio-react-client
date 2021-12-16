@@ -8,7 +8,7 @@ export default function Footer() {
                 <Link className="link" to="/about">About</Link> 
                 <Link className="link" to="/blog">Blog</Link>
                 <Link className="link" to="/projects">Projects</Link>
-                <Link className="link" to="/contact">Contact</Link>
+                <Link className="link" to="/LinkPage">Links</Link>
             </div>
         </div>
     )
