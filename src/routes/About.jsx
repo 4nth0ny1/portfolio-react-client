@@ -17,6 +17,19 @@ export default function About() {
           <img className="computers" src="/computers.jpg" alt="computers" />
         </div>
 
+        <div className="about tech-section">
+
+          <p>My favorite way of thinking about technologies is "tools in a toolbox." What is the best tool for this particular job? I guess this makes me language neutral.</p>
+
+          <br></br>
+
+          <p>I started with Ruby, Sinatra, and Ruby on Rails, which I think are fine technologies. They're really easy to learn and a great starting point for any new developer. I wish to continue to with these languages, while continuing to expand my repetoire.</p>
+
+          <br></br>
+
+          <p>These days I find myself neck deep in JavaScript. I love how much it's grown over the years. Now I spend most of time with ReactJS, NodeJS, Express, and MySQL. They are a newer part of my overall tech stack, but I love their simplicity and their scalability.</p>
+
+        </div>
 
 
         <div className="about about-final-section">
@@ -46,20 +59,7 @@ export default function About() {
           <p className="closing-line">If you like what you're reading so far, click on the <a href='/LinkPage'>links page</a> and shoot me an email. I'd love to talk to you about my projects in depth.</p>
         </div>
 
-        <div className="about">
-          <h3 className="about-subheader">Technology</h3>
 
-          <p>My favorite way of thinking about technologies is "tools in a toolbox." What is the best tool for this particular job? I guess this makes me language neutral.</p>
-
-          <br></br>
-
-          <p>I started with Ruby, Sinatra, and Ruby on Rails, which I think are fine technologies. They're really easy to learn and a great starting point for any new developer. I wish to continue to with these languages, while continuing to expand my repetoire.</p>
-
-          <br></br>
-
-          <p>These days I find myself neck deep in JavaScript. I love how much it's grown over the years. Now I spend most of time with ReactJS, NodeJS, Express, and MySQL. They are a newer part of my overall tech stack, but I love their simplicity and their scalability.</p>
-
-        </div>
 
 
   
