@@ -95,17 +95,24 @@ nav {
 }
 
 .language-container {
-  height: 600px; 
-  border-top: 1px solid black;
+  height: 500px; 
   display: flex; 
   justify-content: center;
+  flex-direction: column;
+}
+
+.lang-groups {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 
 }
 
 .lang-header {
   font-size: 36px;
   text-align: center;
-  margin: auto;
+  margin: 70px;
 }
 
 .about-projects-blog-header {

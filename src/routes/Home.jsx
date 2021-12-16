@@ -1,6 +1,7 @@
 import AccessibilityNewIcon from '@mui/icons-material/AccessibilityNew';
 import WebIcon from '@mui/icons-material/Web';
-import RssFeedIcon from '@mui/icons-material/RssFeed';
+// import RssFeedIcon from '@mui/icons-material/RssFeed';
+import LinkIcon from '@mui/icons-material/Link';
 import { Link } from "react-router-dom";
 
 
@@ -20,26 +21,33 @@ export default function Home() {
         </div>
 
         <div className="language-container">
-          <h2 className="lang-header">Frameworks, Languages, and Libraries I love to use...</h2>
-          {/* <p>Ruby</p>
-          <p>Ruby on Rails</p>
-          <p>Sinatra</p>
-          <p>ReactJS</p>
-          <p>JavaScript</p>
-          <p>Ruby</p>
-          <p>Bootstrap</p>
-          <p>Material UI</p>
-          <p>Express</p>
-          <p>NodeJS</p>
-          <p>HTML5</p>
-          <p>CSS3</p>
-          <p>React Router v5/v6</p>
-          <p>MySQL</p>
-          <p>PostgresQL</p>
-          <p>SQLite3</p>
-          <p>Heroku</p>
-          <p>Github</p>
-          <p>Netlify</p> */}
+          <h2 className="lang-header">Frameworks, Languages, and Libraries I use ...</h2>
+          <div className="lang-groups">
+            <div className="group-one">
+              <p>Ruby</p>
+              <p>Ruby on Rails</p>
+              <p>Sinatra</p>
+              <p>ReactJS</p>
+              <p>JavaScript</p>
+              <p>Bootstrap</p>
+            </div>
+            <div className="group-one">
+              <p>Material UI</p>
+              <p>Express</p>
+              <p>NodeJS</p>
+              <p>HTML5</p>
+              <p>CSS3</p>
+              <p>React Router v5/v6</p>
+            </div>
+            <div className="group-one">
+              <p>MySQL</p>
+              <p>PostgresQL</p>
+              <p>SQLite3</p>
+              <p>Heroku</p>
+              <p>Github</p>
+              <p>Netlify</p>
+            </div>
+          </div>
         </div>
 
         <div className="teamwork-container">
@@ -66,10 +74,10 @@ export default function Home() {
               <p>projects</p>
             </div>
             </Link>
-            <Link className="link" to="/blog">
+            <Link className="link" to="/LinkPage">
             <div className="home-card">
-              <RssFeedIcon className="icon" />
-              <p>blog</p>
+              <LinkIcon className="icon" />
+              <p>links</p>
             </div>
             </Link>
           </div>

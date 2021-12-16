@@ -7,6 +7,7 @@ export default function LinkPage() {
       <p>Github: <a href="https://github.com/4nth0ny1">https://github.com/4nth0ny1</a></p>
       <p>Resume Download: <a href="/resume.docx">click to download</a></p>
       <p>Email: <a class="mailto" href="mailto:acatullo4@gamil.com">acatullo4@gmail.com</a></p>
+      <p>Blog: <a href="https://acsoftware.medium.com/">https://acsoftware.medium.com</a></p>
     </main>
   );
 }
