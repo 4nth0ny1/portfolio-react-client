@@ -2,21 +2,8 @@ import * as React from 'react';
 
 export default function LinkPage() {
 
-  const blink_speed = 600; 
-  setInterval(function () {
-    var ele = document.querySelector('.flashing-sign');
-    ele.style.visibility = (ele.style.visibility === 'hidden' ? '' : 'hidden');
-  }, blink_speed);
-
   return (
     <main className="link-page">
-
-      <fieldset class="flashing-sign">
-          <div class="first-legend">Currently</div>
-          <i class="fas fa-bullhorn"></i> 
-          <div class="sign-center-text">Seeking</div>
-          <div class="second-legend">Employment</div>
-      </fieldset>
 
       <h2>Links</h2>
       <br></br>
