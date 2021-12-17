@@ -27,7 +27,7 @@ h2, h3 {
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
   border-bottom: 1px solid black;
   background: #6C63FF;
   box-shadow: 1px 1px 5px 1px grey;
@@ -261,61 +261,6 @@ nav {
   height: 2px;
   background-color: black;
   border: none;
-}
-
-.flashing-sign {
-  width: 200px;
-  height: 85px;
-  position: relative;
-  top: 75px;
-  left: 50px;
-  box-sizing: border-box;
-  border: solid #00ffff 3px;
-  border-radius: 30px;
-  font-family: sans-serif;
-  
-}
-
-.first-legend {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-68%, -50%);
-  padding: 0 5px;
-  background: white;
-  color: #ff0099;
-  text-transform: uppercase;
-  font-size: 23px;
-}
-
-.second-legend {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-20%, 30%);
-  padding: 0 5px;
-  background: white;
-  color: #33ff00;
-  text-transform: uppercase;
-  font-size: 18px;
-}
-
-.sign-center-text {
-  margin-top: 8px;
-  font-size: 45px;
-  color: #ff0099;
-  text-transform: uppercase;
-}
-
-.megaphone {
-  position: absolute;
-  top: 0;
-  right: 0%;
-  transform: translate(10%, -65%) rotate(-35deg);
-  padding: 0 5px;
-  background: black;
-  color: #cfaa01;
-  font-size: 30px;
 }
 
 .link-page h2 {
